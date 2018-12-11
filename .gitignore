@@ -1,0 +1,35 @@
+# Eclipse
+.classpath
+.project
+.settings/
+*/bin/
+html/
+php/
+osp-order-api-service/testdata.json
+*/test-output/
+
+#osp runIdlc skip common pojo
+*/src/main/java/com/vip/order/common/pojo/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+*.ipr
+out
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+#Gradle
+.gradle
+build/
+*/build/
+
+en=**/
+classes/
+/osp-order-afterserv-service/.vinfo
